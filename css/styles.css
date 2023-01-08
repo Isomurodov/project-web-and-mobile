@@ -17,8 +17,9 @@ body{
   margin: -8px 0 10px 0;
 }
 #nav-list {
-  margin-top: 20px;
-  margin-left: 110px;
+  margin-top: 10px;
+  margin-left: 175px;
+  margin-right: auto;
 }
 #nav-list li {
   width: 16.6%;
@@ -194,7 +195,6 @@ body{
   margin-bottom: 0px;
   position: relative;
   overflow: hidden;
-  background-position: fill;
   transition: transform .7s ease;
 }
 #telemedicine_tile:hover, #ai_tile:hover, #qc_tile:hover, #applications_tile:hover {
@@ -203,19 +203,19 @@ body{
 }
 #telemedicine_tile {
   background: url('../images/telemedicine_tile_385.jpeg') no-repeat;
-  background-position: fill;
+  background-position: center;
 }
 #ai_tile {
   background: url('../images/ai_tile_385.jpg') no-repeat;
-  background-position: fill;
+  background-position: center;
 }
 #qc_tile {
   background: url('../images/qc_tile_385.jpeg') no-repeat;
-  background-position: fill;
+  background-position: center;
 }
 #applications_tile {
   background: url('../images/applications_tile_385.jpeg') no-repeat;
-  background-position: fill;
+  background-position: center;
 }
 .home-tiles span {
   position: absolute;
@@ -304,6 +304,15 @@ body{
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+  /* Header */
+  #logo-img {
+    margin: 40px 5px 5px 0;
+  }
+  .navbar-brand {
+    margin-top: -50px;
+  }
+  /* End Header */
+
   /*  Home Page*/
   .container .jumbotron {
     background: url('../images/jumbotron_1200.gif') no-repeat;
@@ -413,6 +422,11 @@ body{
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
+  }
+  #nav-list {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #nav-list li {
     width: 100%;
