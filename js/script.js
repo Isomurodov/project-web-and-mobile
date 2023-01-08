@@ -25,6 +25,7 @@ $(function () {
   var dc = {};
 
   var homeHtml = "snippets/home-snippet.html";
+  var aboutusHtml = "snippets/abus-snippet.html";
   var quantumHtml = "snippets/quantum-snippet.html";
   var aiHtml = "snippets/categories-title-snippet.html";
   var telemedicineHtml = "snippets/category-snippet.html";
