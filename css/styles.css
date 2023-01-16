@@ -321,7 +321,7 @@ body{
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  border: 1px solid #3F0C1F;
+  border: 8px solid #4863A0;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -343,9 +343,9 @@ body{
 #ale-linkedin span, #java-linkedin span, #dilyan-linkedin span {
   position: absolute;
   bottom: 0px;
-  right: 26px;
+  right: 23px;
   width: 86%;
-  height: 87px;
+  height: 85px;
   align-content: center;
   text-align: center;
   font-size: 1.6em;
@@ -353,6 +353,10 @@ body{
   background-color: #000;
   color: #fff;
   opacity: .8;
+}
+
+#dilyan-linkedin span {
+  font-size: 1.5em;
 }
 /*ABOUT US END*/
 
