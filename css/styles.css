@@ -375,6 +375,50 @@ body{
 
 }
 
+.linkedin {
+  max-width:100%;
+  max-height:100%;
+}
+
+#ale-linkedin, #java-linkedin, #dilyan-linkedin {
+  height: 240px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 1px solid #3F0C1F;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#ale-linkedin {
+  background: url('https://media.licdn.com/dms/image/C4D03AQGkNGCoA16khg/profile-displayphoto-shrink_400_400/0/1658996452378?e=1678320000&v=beta&t=5s6EM_HKwfpqRHWUDuCnjgpFqHJyhle3sWZrbk4YaJQ') no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+#java-linkedin {
+  background: url('https://media.licdn.com/dms/image/C5603AQEm9Br5aD8C3Q/profile-displayphoto-shrink_800_800/0/1629351918729?e=1678320000&v=beta&t=og86E-XrDL96H2z3JWH1MuSCVnE1V2iJJ2KR4eMCzOQ') no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+#dilyan-linkedin {
+  background: url('https://media.licdn.com/dms/image/D4E03AQEWwp8y2ZjiGQ/profile-displayphoto-shrink_400_400/0/1672865673214?e=1678320000&v=beta&t=HRZq3Z4_QcT1X0NuuYHISnv59msbsFNrbnYgpEn_v6A') no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+#ale-linkedin span, #java-linkedin span, #dilyan-linkedin span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #logo-img {
